@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="891.0" style="-fx-background-color: #D7D8C9;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.imageButtonController">
+    <children>
+        <AnchorPane layoutX="218.0" layoutY="413.0" prefHeight="71.0" prefWidth="455.0" style="-fx-background-color: #A4A68A;">
+         <children>
+            <Text layoutX="7.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выгу Выгу Выгу">
+               <font>
+                  <Font name="SimSun" size="34.0" />
+               </font>
+            </Text>
+         </children>
+        </AnchorPane>
+      <ImageView fx:id="imageButton" fitHeight="416.0" fitWidth="891.0" layoutX="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/VyguVYgu.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
